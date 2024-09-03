@@ -1,0 +1,50 @@
+@media  screen and (min-width:1024px) {
+
+    .navigation{
+        display: none;
+    }
+    .navigationTab{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        background-color: #004976;
+    }
+    
+    .navigationTab ul{
+display: flex;
+flex-direction: row;
+width: 100%;
+justify-content: space-around;
+gap: 40px;
+list-style-type: none;
+align-items: center;
+
+ }
+ .navigationTab ul li{
+   display: flex;
+   gap: 16px;
+ }
+ .navigationTab ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    align-content: center;
+    
+ }
+
+ .navigationTab img{
+    width: 219px;
+    height: 80px;
+    object-fit: cover;
+ }
+ .navigationTab ul li{
+    height: 32px;
+ }
+.navigationTab ul li span img{
+   width: 32px;
+   height: 32px;
+   object-fit: cover;
+}
+
+}
