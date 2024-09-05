@@ -32,6 +32,10 @@ align-items: center;
     align-content: center;
     
  }
+ .navigationTab ul li:hover,
+    .navigationTab ul li:active {
+        filter: brightness(0) saturate(100%) invert(93%) sepia(75%) saturate(2474%) hue-rotate(152deg) brightness(84%) contrast(86%);
+    }
 
  .navigationTab img{
     width: 219px;

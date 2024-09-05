@@ -8,10 +8,13 @@
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mediaQuery.css">
+    <link rel="stylesheet" href="desktop-mediaQuery.css">
+    <link rel="stylesheet" href="tab.css">
+    <link rel="stylesheet" href="lap.css">
 </head>
 
 <body>
-    <header>
+    <header class="head">
         <img src="images/CTlogo.png" alt="logo1">
         <img src="images/PA - Logo.png" alt="logo2">
     </header>
@@ -50,8 +53,84 @@
             <li><span><img src="images/bar-chart.png" alt=""></span><a href="">CLINICAL INFORMATION</a></li>
             <li><span><img src="images/Frame 427.png" alt=""></span><a href="">REFRENCES</a></li>
         </ul>
-    </nav>
 
+    </nav>
+       
+    <aside class="prescribingInfo">
+         <div class="pi">  
+            <span><img src="images/PDF Icon.png" alt=""></span>
+        <h3>Prescribing Information</h3>
+        </div> 
+
+        <div class="content">
+            <div class="para">
+            <h2>Indication</h2>
+            <p class="tukysa">TUKYSA is indicated in combination with trastuzumab and capecitabine for treatment of adult patients with advanced unresectable or metastatic HER2-positive breast cancer, including patients with brain metastases, who have received one or more prior anti-HER2-based regimens in the metastatic setting.</p>
+            
+              <h2>Important Safety Information</h2>
+                <h3>Warnings and Precautions</h3>
+
+                <ul class="first">
+                    <li><span>Diarrhea:</span>TUKYSA can cause severe diarrhea including dehydration, hypotension, acute kidney injury, and death. If diarrhea occurs, administer antidiarrheal treatment as clinically indicated. Perform diagnostic tests as clinically indicated to exclude other causes of diarrhea. Based on the severity of the diarrhea, interrupt dose, then dose reduce or permanently discontinue TUKYSA. <br> <br> In HER2CLIMB, when TUKYSA was given in combination with trastuzumab and capecitabine, 81% of patients who received TUKYSA experienced diarrhea, including 0.5% with Grade 4 and 12% with Grade 3. Both patients who developed Grade 4 diarrhea subsequently died, with diarrhea as a contributor to death. Median time to onset of the first episode of diarrhea was 12 days and the median time to resolution was 8 days. Diarrhea led to TUKYSA dose reductions in 6% of patients and TUKYSA discontinuation in 1% of patients. Prophylactic use of antidiarrheal treatment was not required on HER2CLIMB.</li> <br>
+                    <li> <span>Hepatotoxicity:</span>TUKYSA can cause severe hepatotoxicity. Monitor ALT, AST, and bilirubin prior to starting TUKYSA, every 3 weeks during treatment, and as clinically indicated. Based on the severity of hepatotoxicity, interrupt dose, then dose reduce or permanently discontinue TUKYSA. <br> <br>
+
+                        In HER2CLIMB, 8% of patients who received TUKYSA had an ALT increase >5 × ULN, 6% had an AST increase >5 × ULN, and 1.5% had a bilirubin increase >3 × ULN (Grade ≥3). Hepatotoxicity led to TUKYSA dose reductions in 8% of patients and TUKYSA discontinuation in 1.5% of patients.</li> <br>
+                    <li> <span>Embryo-Fetal Toxicity:</span> TUKYSA can cause fetal harm. Advise pregnant women and females of reproductive potential of the potential risk to a fetus. Advise females of reproductive potential, and male patients with female partners of reproductive potential, to use effective contraception during TUKYSA treatment and for 1 week after the last dose.</li>
+                    
+                </ul>
+                <h4>Adverse Reactions</h4>
+                <p class="reactions">In HER2CLIMB, serious adverse reactions occurred in 26% of patients who received TUKYSA; the most common (in ≥2% of patients) were diarrhea (4%), vomiting (2.5%), nausea (2%), abdominal pain (2%), and seizure (2%). Fatal adverse reactions occurred in 2% of patients who received TUKYSA including sudden death, sepsis, dehydration, and cardiogenic shock.</p>
+
+                <p class="reactions">Adverse reactions led to treatment discontinuation in 6% of patients who received TUKYSA; the most common (in ≥1% of patients) were hepatotoxicity (1.5%) and diarrhea (1%). Adverse reactions led to dose reduction in 21% of patients who received TUKYSA; the most common (in ≥2% of patients) were hepatotoxicity (8%) and diarrhea (6%).</p>
+
+                <p class="reactions">The most common adverse reactions in patients who received TUKYSA (≥20%) were diarrhea, palmar-plantar erythrodysesthesia, nausea, hepatotoxicity, vomiting, stomatitis, decreased appetite, anemia, and rash.</p>
+                <h4>Lab Abnormalities</h4>
+                <p class="lab">In HER2CLIMB, Grade ≥3 laboratory abnormalities reported in ≥5% of patients who received TUKYSA were decreased phosphate, increased ALT, decreased potassium, and increased AST.</p>
+                <p class="lab">The mean increase in serum creatinine was 32% within the first 21 days of treatment with TUKYSA. The serum creatinine increases persisted throughout treatment and were reversible upon treatment completion. Consider alternative markers of renal function if persistent elevations in serum creatinine are observed</p>
+
+                <h4>Drugs Interactions</h4>
+                <ul class="second">
+                    <li><span>Strong CYP3A/Moderate CYP2C8 Inducers:</span> Concomitant use may decrease TUKYSA activity. Avoid concomitant use of TUKYSA.</li>
+                    <li><span>Strong or Moderate CYP2C8 Inhibitors:</span>Concomitant use of TUKYSA with a strong CYP2C8 inhibitor may increase the risk of TUKYSA toxicity; avoid concomitant use. Increase monitoring for TUKYSA toxicity with moderate CYP2C8 inhibitors.</li>
+                    <li> <span>CYP3A Substrates:</span>  Concomitant use may increase the toxicity associated with a CYP3A substrate. Avoid concomitant use of TUKYSA where minimal concentration changes may lead to serious or life-threatening toxicities. If concomitant use is unavoidable, decrease the CYP3A substrate dosage.</li>
+                    <li><span>P-gp Substrates:</span> Concomitant use may increase the toxicity associated with a P-gp substrate. Consider reducing the dosage of P-gp substrates where minimal concentration changes may lead to serious or life-threatening toxicity.</li>
+                </ul>
+                <h4>Use in Specific Populations</h4>
+                 <ul class="third">
+                    <li><span>Lactation:</span> Advise women not to breastfeed while taking TUKYSA and for 1 week after the last dose.</li>
+                    <li><span>Renal Impairment:</span> Use of TUKYSA in combination with capecitabine and trastuzumab is not recommended in patients with severe renal impairment (CLcr < 30 mL/min), because capecitabine is contraindicated in patients with severe renal impairment.</li>
+                    <li><span>Hepatic Impairment:</span> Reduce the dose of TUKYSA for patients with severe (Child-Pugh C) hepatic impairment.</li>
+                 </ul>
+            </div>
+        </div>
+    </aside>
+
+   
+    
+        <section class="bannerSection">
+            <img src="images/mobile-banner.png" alt="background image" class="mainImage">
+ 
+            <h3>IN 2L+ HER2+ MBC</h3>
+            <h2>RETHINK TREATMENT WITH THE <span>TUKYSA</span> REGIMEN<sup><small>*</small></sup></h2>
+ 
+            <div class="nccn">
+                <img src="images/nccn.png" alt="nccn logo">
+                <p>Tucatinib (TUKYSA) in combination with trastuzumab and capecitabine is the only NCCN<span>®</span> Category 1, preferred systemic treatment option for 3L HER2+ MBC<span>1†‡§</span></p>
+            </div>
+ 
+            <div class="text">
+                <p><span>1</span>TUKYSA is indicated in combination with trastuzumab and capecitabine.<span>2</span></p>
+                <p><span>†</span>Tucatinib + trastuzumab + capecitabine is preferred in patients with both systemic and CNS progression in the third-line setting and beyond; and it may be given in the second-line setting.<span>1</span></p>
+                <p><span>‡</span>Category 1: Based upon high-level evidence, there is uniform NCCN consensus that the intervention is appropriate.<span>1</span></p>
+                <p><span>§</span>Preferred: Interventions that are based on superior efficacy, safety, and evidence; and, when appropriate, affordability.<span>1</span></p>
+                <p>NCCN makes no warranties of any kind whatsoever regarding their content, use, or application, and disclaims any responsibility for their application or use in any way. See NCCN Clinical Practice Guidelines in Oncology (NCCN Guidelines<span>®</span>) for detailed recommendations, including other preferred options. <br><br>
+ 
+                    2L = second-line; 3L = third-line; CNS = central nervous system; HER = human epidermal growth factor receptor;
+                    MBC = metastatic breast cancer; NCCN = National Comprehensive Cancer Network<span>®</span> (NCCN<span>®</span>).</p>
+            </div>
+        </section>
+  
+  
 
     <script src="index.js"></script>
 </body>

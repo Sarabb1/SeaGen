@@ -1,0 +1,17 @@
+@media screen and (min-width:1024px) {
+    
+    .bannerSection{
+        height: 619px;
+    }
+    .bannerSection .text{
+        width: 649px;
+        height: 221px;
+        bottom: 16px;
+    }
+    .bannerSection .text p{
+        font-size: 12px;
+        line-height: 16.8px;
+        font-weight: 400;
+
+    }
+}
