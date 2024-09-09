@@ -44,4 +44,24 @@
         line-height: 16.8px;
         font-weight: 400;
     }
+    .blockade{
+        align-items: center;
+    }
+    .her2{
+        width: 600px;
+    }
+    .her2 .one{
+        width: 200px;
+        top: 60px;
+        left: 80px;
+    }
+    .her2 img{
+        left: 260px;
+    top: 15px;
+    }
+    .her2 .two{
+        width: 200px;
+        top:130px;
+        left: 340px;
+    }
 }
